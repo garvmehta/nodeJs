@@ -32,5 +32,6 @@ fs.appendFileSync('./main/index.js', appendData, (err) => {
     })
     // delete file
 fs.unlinkSync("./main/index.js", (err) => {
-    console.log(err);
-})
+        console.log(err);
+    })
+    //completed
